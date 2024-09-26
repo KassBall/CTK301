@@ -1,0 +1,59 @@
+.purpbg {
+    background-color: #6b69dc; 
+
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: green;
+}
+
+h1 {
+    color: white;
+    background-color: #6b69dc;
+}
+
+h2 {
+    color: blue;
+}
+
+.turnwhite {
+    color: white;
+}
+
+.turnblue {
+    color:blue
+}
+
+.turnorange {
+    color:orange
+}
+
+.turnred {
+    color:rgb(209, 37, 37)
+}
+
+.yellow-background {
+    background-color: yellow;
+}
+
+.dgbackground {
+    background-color: rgb(18, 57, 35);
+}
+
+.lgbackground {
+    background-color: rgb(132, 247, 106);
+}
+
+.green-bg-yellow-text {
+    background-color: darkgreen; 
+    color: yellow; 
