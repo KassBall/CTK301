@@ -1,0 +1,109 @@
+
+.highlight {
+    color: rgb(13, 13, 168); 
+    background-color: rgb(233, 233, 237); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9ea7ae;
+    color: #333;
+    background-image: url('blubg.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange; 
+    font-style: italic; 
+    font-weight: normal; 
+    background-color: #cbe7f2; 
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+
+.center-text {
+    text-align: center;
+}
+
+
+.justify-text {
+    text-align: justify;
+}
+
+
+a {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: blue;
+}
+
+
+.contact-detail {
+    color: #555;
+}
+
+
+#school-title {
+    background-color: #4acbe2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h2.section-title {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-left: 5px solid #4a90e2;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#contact-info {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navigation-menu {
+    background-color: #4a90e2;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+img {
+    border: 10px solid black; 
+    padding: 15px; 
+    background-color: yellow; 
+}
+
