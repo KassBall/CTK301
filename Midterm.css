@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e9ec;
+}
+
+
+.header {
+    background: linear-gradient(to bottom, #3b7bbf, #0e3791);
+    color: rgb(113, 187, 234);
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.nav a {
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+    font-weight: bold;
+    display: block;
+    width: 150px; 
+    position: relative;
+}
+
+.nav a:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 1%; 
+    height: 100%;  
+    width: 5px;  
+    background-color: #072545;  
+    opacity: 0.6;
+
+
+.wrapper {
+    border: 4px solid #1a4c7c;  
+    border-radius: 8px;  
+    padding: 10px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav {
+    display: flex;
+    background: linear-gradient(to bottom, #2e6ca4, #245a84);
+    justify-content: center;
+    border-bottom: 4px solid #1a4c7c;
+}
+
+.nav a {
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+    font-weight: bold;
+    display: block;
+    width: 150px;
+}
+
+.nav a:hover {
+    background-color: #1a4c7c;
+    color: #e6f2ff;
+}
+
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.left, .right {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #6dd8f1;
+    margin: 10px;
+}
+
+.left {
+    width: 45%;
+    background-color: #6dd8f1;
+}
+
+.right {
+    width: 55%;
+    background-color: #fbfcfc;
+}
+
+h2 {
+    color: #1a4c7c;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.left p {
+    border-top: 1px solid #000;
+    padding-top: 10px;
+}
+
+
+.content-image {
+    width: 100%;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+
+.highlight-link {
+    color: red;
+    font-weight: bold;
+}
+
+
+.footer {
+    background: #b31b1b;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer img {
+    height: 60px;
+    vertical-align: middle;
+    margin-right: 30px;
+}
