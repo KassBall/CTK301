@@ -44,7 +44,7 @@ body {
 }
 
 .nav a {
-    color: white;
+    color: rgb(49, 130, 205);
     text-align: center;
     padding: 15px 30px;
     text-decoration: none;
@@ -57,7 +57,7 @@ body {
 
 .nav a:hover,
 .nav a.active {
-    background-color: #1a4c7c;
+    
     color: #e6f2ff;
 }
 
