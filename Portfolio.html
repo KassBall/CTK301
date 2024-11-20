@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Kassidy's Portfolio Website</title>
+
     <link href="Portolio.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
@@ -172,15 +173,19 @@
 
     <div id="wrapper">
         
-        <div class="header">Kassidy's Portfolio Website</div>
+        <header class="header">
+            <h1>
+                <a href="Portfolio.html" class="header-link">Kassidy's Portfolio Website</a>
+            </h1>
+        </header>
+        
 
         
         <div class="sidebar">
-            <a href="#">Digital Painting</a>
-            <a href="#">Physical Art</a>
-            <a href="#">Graphic Design</a>
-            <a href="#">Contact</a>
-            
+            <a href="DigitslArt.html" class="sidebar-button active">Digital Painting</a>
+            <a href="physical-art.html" class="sidebar-button">Physical Art</a>
+            <a href="graphic-design.html" class="sidebar-button">Graphic Design</a>
+            <a href="contact.html" class="sidebar-button">Contact</a>
             
             <button onclick="document.getElementById('my-audio').play()">Play Music</button>
             <button onclick="document.getElementById('my-audio').pause()">Pause Music</button>

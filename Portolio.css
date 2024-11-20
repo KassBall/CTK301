@@ -5,6 +5,16 @@
   box-sizing: border-box;
 }
 
+.header-link {
+  color: white; 
+  text-decoration: none; 
+  transition: color 0.3s ease; 
+}
+
+.header-link:hover {
+  color: #d4e1f5; 
+}
+
 
 body { 
   background-color: #f0f0f0;
