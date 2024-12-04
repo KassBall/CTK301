@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kassidy's Work</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Portfolio.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>My Work</h1>
+        <p>Just Drawings from Class</p>
+    </header>
+
+    <nav class="nav">
+        <a href="Portfolio.html">Home</a>
+        <a href="work.html" class="active">Work</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main class="main">
+        <h2></h2>
+        <div class="projects">
+            
+            <div class="project large">
+                <a href="SNOWYLANDSCAPE.png" data-fancybox="gallery" data-caption="Snowy Aurora Borealis">
+                    <img src="SNOWYLANDSCAPE.png" alt="Snowy Aurora Borealis">
+                </a>
+                <div class="caption">Snowy Aurora Borealis</div>
+            </div>
+
+            
+            <div class="project medium">
+                <a href="SppokyCafe.png" data-fancybox="gallery" data-caption="Spooky Cafe">
+                    <img src="SppokyCafe.png" alt="Spooky Cafe Artwork">
+                </a>
+                <div class="caption">Spooky Cafe</div>
+            </div>
+
+            
+            <div class="project small">
+                <a href="snowytrain.JPG" data-fancybox="gallery" data-caption="Snowy Train">
+                    <img src="snowytrain.JPG" alt="Snowy Train Artwork">
+                </a>
+                <div class="caption">Snowy Train</div>
+            </div>
+
+            
+            <div class="project medium">
+                <a href="HFTF.jpeg" data-fancybox="gallery" data-caption="Hope For the Flowers Inspo">
+                    <img src="HFTF.jpeg" alt="Hope For the Flowers Artwork">
+                </a>
+                <div class="caption">Hope For the Flowers Inspo</div>
+            </div>
+
+            
+            <div class="project large">
+                <a href="Alley.png" data-fancybox="gallery" data-caption="Alley Street">
+                    <img src="Alley.png" alt="Alleyway">
+                </a>
+                <div class="caption">Alley Street</div>
+            </div>
+
+            
+            <div class="project small">
+                <a href="BABYBACKWARD.PNG" data-fancybox="gallery" data-caption="Backyard Boy Posing">
+                    <img src="BABYBACKWARD.PNG" alt="Kitty in the backyard">
+                </a>
+                <div class="caption">Backyard Boy Posing</div>
+            </div>
+
+            
+            <div class="project medium">
+                <a href="ISLANDBOY.png" data-fancybox="gallery" data-caption="My Son as an Island">
+                    <img src="ISLANDBOY.png" alt="My Baby Son As a big Island">
+                </a>
+                <div class="caption">My Son as an Island</div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        © 2024 Kassidy's Portfolio
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook-f" aria-label="Facebook"></a>
+            <a href="https://www.twitter.com" target="_blank" class="fab fa-twitter" aria-label="Twitter"></a>
+            <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram" aria-label="Instagram"></a>
+            <a href="https://www.linkedin.com" target="_blank" class="fab fa-linkedin-in" aria-label="LinkedIn"></a>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('[data-fancybox="gallery"]').fancybox({
+                buttons: ["zoom", "slideShow", "thumbs", "close"],
+                animationEffect: "fade",
+                animationDuration: 300,
+                transitionEffect: "circular",
+                loop:

@@ -2,233 +2,106 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Kassidy's Portfolio Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kassidy's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Portfolio.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
-    <link href="Portolio.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
-    <style>
-      
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        
-        body { 
-            background-color: #f0f0f0;
-            font-family: 'Roboto', Arial, sans-serif;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            padding: 20px;
-        }
-
-        #wrapper {
-            width: 100%;
-            max-width: 1200px;
-            background-color: #ffffff;
-            display: grid;
-            grid-template-columns: 300px 1fr; 
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        
-        .header {
-            grid-column: 1 / -1;
-            background-color: #8cc3e8;
-            text-align: center;
-            padding: 20px;
-            font-size: 24px;
-            font-weight: bold;
-            color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-        }
-
-        
-        .sidebar {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
-        .sidebar a, .sidebar button {
-            display: block;
-            padding: 15px;
-            background-color: #8cc3e8;
-            color: white;
-            text-align: center;
-            text-decoration: none;
-            font-size: 18px;
-            border-radius: 5px;
-            border: none; 
-            cursor: pointer; 
-            transition: background-color 0.3s;
-        }
-
-        .sidebar a:hover, .sidebar button:hover {
-            background-color: #6ea7d1;
-        }
-
-        
-        .main-image {
-            grid-column: 2 / 3; 
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .main-image img {
-            width: 100%;
-            height: auto;
-            max-width: 100%;
-            border-radius: 8px;
-        }
-
-        
-        .projects {
-            grid-column: 1 / -1; 
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: space-between;
-            margin-top: 20px;
-        }
-
-        .project {
-            flex: 1;
-            min-width: 250px;
-            max-width: 350px;
-            text-align: center;
-            background-color: #ffffff;
-            padding: 10px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s;
-        }
-
-        .project:hover {
-            transform: scale(1.02);
-        }
-
-        .project img {
-            width: 100%;
-            max-width: 100%;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .project h3 {
-            font-size: 1.2rem;
-            margin-top: 10px;
-        }
-
-        .project p {
-            font-size: 0.9rem;
-            color: #666;
-        }
-
-      
-        .footer {
-            grid-column: 1 / -1;
-            background-color: #8cc3e8;
-            padding: 15px;
-            text-align: center;
-            color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            margin-top: 20px;
-        }
-
-        /* Social Icons */
-        .social-icons {
-            margin-top: 10px;
-        }
-
-        .social-icons a {
-            color: white;
-            margin: 0 8px;
-            font-size: 1.2rem;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .social-icons a:hover {
-            color: #d4e1f5;
-        }
-    </style>
 </head>
 <body>
 
-    <div id="wrapper">
-        
-        <header class="header">
-            <h1>
-                <a href="Portfolio.html" class="header-link">Kassidy's Portfolio Website</a>
-            </h1>
-        </header>
-        
+    <header class="header">
+        <h1>Kassidy's Portfolio</h1>
+        <p>Digital Artist and Illustrator</p>
+    </header>
+
+    <nav class="nav">
+        <a href="Portfolio.html">Home</a> 
+        <a href="Work.html">Work</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+
+    <main class="main">
 
         
-        <div class="sidebar">
-            <a href="DigitalArt.html" class="sidebar-button active">Digital Painting</a>
-            <a href="physical-art.html" class="sidebar-button">Physical Art</a>
-            <a href="graphic-design.html" class="sidebar-button">Graphic Design</a>
-            <a href="contact.html" class="sidebar-button">Contact</a>
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="ISLANDBOY.png" alt="Big Island Girl">
+                <div class="caption">My Son as an Island</div>
+            </div>
+            <div class="slide fade">
+                <img src="SppokyCafe.png" alt="Spooky Cafe">
+                <div class="caption">Spooky Cafe</div>
+            </div>
+            <div class="slide fade">
+                <img src="snowytrain.JPG" alt="Snowy Train">
+                <div class="caption">Train through the Snow</div>
+            </div>
+            <div class="slide fade">
+                <img src="Alley.png" alt="Nightime Alleyway">
+                <div class="caption">Nighttime Alley</div>
+            </div>
+            <div class="slide fade">
+                <img src="SNOWYLANDSCAPE.png" alt="Aurora Borealis Mountain">
+                <div class="Aurora Borealis Mountain">Featured Work 3</div>
+            </div>
+            <div class="slide fade">
+                <img src="BABYBACKWARD.PNG" alt="Kitty in the Backyard">
+                <div class="caption">Baby in the Backyard</div>
+            </div>
+            <div class="slide fade">
+                <img src="HFTF.jpeg" alt="Hope For the Flowers">
+                <div class="caption">Hope for the Flowers</div>
+            </div>
             
-            <button onclick="document.getElementById('my-audio').play()">Play Music</button>
-            <button onclick="document.getElementById('my-audio').pause()">Pause Music</button>
+           
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
 
-        <div class="main-image">
-            <img src="SNOWYLANDSCAPE.png" alt="Snowy Mountain with Aurora Borealis">
-        </div>
-
+        <h2>Some Projects</h2>
         <div class="projects">
             <div class="project">
                 <img src="HFTF.jpeg" alt="Hope For the Flowers Inspiration">
-                <h3>Project 1</h3>
-                <p>Inspirarion from a book called "Hope For the Flowers" by Trina Paulus.</p>
+                <h3>Hope For the Flowers</h3>
+                <p>Inspired by Trina Paulus's book.</p>
             </div>
             <div class="project">
                 <img src="ISLANDBOY.png" alt="My Cat as an Island">
-                <h3>Project 2</h3>
-                <p>My Son looking like a big old Island.</p>
+                <h3>Island Boy</h3>
+                <p>My cat depicted as a big island.</p>
             </div>
             <div class="project">
                 <img src="BABYBACKWARD.PNG" alt="My Cat in our Backyard">
-                <h3>Project 3</h3>
-                <p>My Son in the backyard.</p>
+                <h3>Backyard Adventures</h3>
+                <p>My son exploring the backyard.</p>
+            </div>    
+                <div class="project">
+                    <img src="SNOWYLANDSCAPE.png" alt="Snowy Mountain Aurora Borealis">
+                    <h3>Mountain Landscap</h3>
+                    <p>Snowy Mountain Aurora Borealis.</p>
             </div>
         </div>
+        <a href="work.html">
+            <button class="more-work">More Work</button>
+        </a>
+        
+    </main>
 
-        <div class="footer">
-            © 2024 Kassidy's Portfolio
-            <div class="social-icons">
-                <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook-f" aria-label="Facebook"></a>
-                <a href="https://www.twitter.com" target="_blank" class="fab fa-twitter" aria-label="Twitter"></a>
-                <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram" aria-label="Instagram"></a>
-                <a href="https://www.linkedin.com" target="_blank" class="fab fa-linkedin-in" aria-label="LinkedIn"></a>
-            </div>
+    <div class="footer">
+        © 2024 Kassidy's Portfolio
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook-f" aria-label="Facebook"></a>
+            <a href="https://www.twitter.com" target="_blank" class="fab fa-twitter" aria-label="Twitter"></a>
+            <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram" aria-label="Instagram"></a>
+            <a href="https://www.linkedin.com" target="_blank" class="fab fa-linkedin-in" aria-label="LinkedIn"></a>
         </div>
     </div>
+</div>
+    </footer>
 
-    
-    <audio id="my-audio">
-        <source src="inspirational-chamber-symphony-classical-royal-263014.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-
+    <script src="Portolio.js"></script>
 </body>
 </html>
