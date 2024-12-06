@@ -430,4 +430,49 @@ body {
   background-color: #6da6cf;
 }
 
+/* Styling for the "Get in Touch" Section */
+.contact-info {
+  text-align: center; /* Center align text */
+  margin-bottom: 30px; /* Add space between sections */
+}
+
+.contact-info h2 {
+  font-size: 32px; /* Make the heading larger */
+  color: #333;
+  margin-bottom: 15px;
+  font-family: 'Georgia', serif;
+}
+
+.contact-info p {
+  font-size: 18px; /* Increase paragraph size */
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Social Media Links Styling */
+.social-icons {
+  display: flex;
+  justify-content: center; /* Center the icons */
+  gap: 20px; /* Add spacing between icons */
+  margin-top: 20px;
+}
+
+.social-icons .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px; /* Larger circles */
+  height: 80px;
+  background-color: #4a90e2; /* Blue color */
+  border-radius: 50%;
+  text-decoration: none;
+  color: white;
+  font-size: 28px; /* Increase icon size */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.social-icons .icon:hover {
+  background-color: #357abf; /* Darker blue on hover */
+  transform: scale(1.1); /* Add a hover zoom effect */
+}
 
